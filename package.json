@@ -9,7 +9,6 @@
     "deelay": "bin/deelay.js"
   },
   "scripts": {
-    "start": "node ./bin/deelay.js",
     "test": "node test/indexTest.js"
   },
   "author": "Grzegorz Biesiadecki",
