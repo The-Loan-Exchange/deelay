@@ -2,6 +2,6 @@
 
 const deelay = require('../index.js');
 const http = require('http');
-const port = process.env.PORT || 4567;
+const port = process.env.PORT || 5000;
 
 http.createServer((req, res) => deelay(req, res, process.stdout)).listen(4567, () => console.log(`Starting delay on port ${port}`));
